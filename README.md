@@ -1,3 +1,2 @@
 # NaBlog
- 
-- [GUI](/posts/gui.md)
+ - [gui.md](gui.md)
