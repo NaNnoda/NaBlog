@@ -62,7 +62,7 @@ def append_posts():
     with open(f"{template_path}/home.md", "r") as template:
         template = template.read()
 
-        with open("README.md", "w") as readme:
+        with open("index.md", "w") as readme:
             readme.write(template)
             for post in posts:
                 readme.write(f"- [{post.title}]({post.path})\n")
